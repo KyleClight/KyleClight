@@ -12,6 +12,11 @@ I also supervise the [Pure Project](https://puremc.host/)
 - 🤔 I’m looking for help with openAI API  
 - ⚡ Fun fact: i play several types of guitars professionally
 
+<p align="center">
+    <img src="https://img.shields.io/badge/At the moment I'm learning the spring framework in depth, as well as Java native, CI/CD and Docker-F501DAF?style=for-the-badge&logo=lamp&logoColor=white" alt="Info">
+</p>
+
+
 <hr>
 
 <p align="center">
@@ -34,3 +39,5 @@ I also supervise the [Pure Project](https://puremc.host/)
     <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   </a>
 </p>
+
+
