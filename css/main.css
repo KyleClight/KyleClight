@@ -42,7 +42,7 @@ body {
     font-family: var(--font-mono);
     font-weight: bold;
     color: var(--accent);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: 2px;
 }
 
@@ -140,12 +140,12 @@ body {
 }
 
 @media(max-width: 1024px) {
-    .container {
-        text-align: center;
-        justify-content: center;
-    }
     .text-block p {
         margin: 0 auto;
+    }
+    
+    .header-fixed {
+        top: 30px
     }
 }
 
