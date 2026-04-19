@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anti-Course</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <nav class="header-fixed">
         :AC:
@@ -16,107 +18,230 @@
         <div class="dot"></div>
     </div>
 
-    <main class="scroll-container">
-        <section class="section hero-bg">
+    <div class="scroll-container">
+        <main>
+            <section class="section hero-bg">
 
-            <!-- FIRST SLIDE -->
-            <div class="container">
-                <div class="text-block">
-                    <div class="label">System_Initialization...</div>
-                    <h1>Выход из <strong>учебной петли</strong></h1>
-                    <p>Anti-Course — это не очередной туториал. 
-                        Это система дебаггинга вашего IT-мышления. 
-                        Мы находим логические сбои после курсов и 
-                        восстанавливаем способность писать код осознанно.
-                    </p>
-                </div>
+                <div class="container">
+                    <div class="text-block">
+                        <div class="label">System_Initialization...</div>
+                        <h1>Выход из <strong>учебной петли</strong></h1>
+                        <p>Anti-Course — это не очередной туториал.
+                            Это система дебаггинга вашего IT-мышления.
+                            Мы находим логические сбои после курсов и
+                            восстанавливаем способность писать код осознанно.
+                        </p>
+                    </div>
 
-                <!-- TERMINAL -->
-                <div class="visual-block">
-                    <div class="terminal-window">
-                        <div class="terminal-header">
-                            <div class="terminal-dot red"></div>
-                            <div class="terminal-dot orange"></div>
-                            <div class="terminal-dot dark-red"></div>
+                    <div class="visual-block">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <div class="terminal-dot red"></div>
+                                <div class="terminal-dot orange"></div>
+                                <div class="terminal-dot dark-red"></div>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="log-line">
+                                    <span class="log-time">[10:04:12]</span>
+                                    <span>$ analyze_mindset --target=student</span>
+                                </div>
+                                <div class="log-line">
+                                    <span class="log-time">[10:04:14]</span>
+                                    <span class="log-error">ERR: dependencies missing. Tutorial-hell detected.</span>
+                                </div>
+                                <div class="log-line">
+                                    <span class="log-time">[10:04:15]</span>
+                                    <span>> starting mental_reconstruction...</span>
+                                </div>
+                                <div class="log-line">
+                                    <span class="log-time">[10:04:18]</span>
+                                    <span class="log-success">SYS: Logical core rebuilt successfully.</span>
+                                </div>
+                                <div class="log-line">
+                                    <span class="log-time">[10:04:18]</span>
+                                    <span>$ await input <span class="log-cursor"></span></span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="terminal-body">
-                            <div class="log-line">
-                                <span class="log-time">[10:04:12]</span>
-                                <span>$ analyze_mindset --target=student</span>
-                            </div>
-                            <div class="log-line">
-                                <span class="log-time">[10:04:14]</span>
-                                <span class="log-error">ERR: dependencies missing. Tutorial-hell detected.</span>
-                            </div>
-                            <div class="log-line">
-                                <span class="log-time">[10:04:15]</span>
-                                <span>> starting mental_reconstruction...</span>
-                            </div>
-                            <div class="log-line">
-                                <span class="log-time">[10:04:18]</span>
-                                <span class="log-success">SYS: Logical core rebuilt successfully.</span>
-                            </div>
-                            <div class="log-line">
-                                <span class="log-time">[10:04:18]</span>
-                                <span>$ await input <span class="log-cursor"></span></span>
-                            </div>
+                    </div>
+                </div>
+                <div class="scroll-indicator">Scroll to execute</div>
+            </section>
+
+            <section class="section" style="background-color: #0c3338;"> <svg class="bg-schematic"
+                    viewBox="0 0 1000 1000">
+                    <path d="M0,200 L200,200 L250,250 L500,250 L550,200 L1000,200" stroke="#1B8C8C" stroke-width="1"
+                        fill="none" />
+                    <path d="M100,0 L100,150 L150,200" stroke="#1B8C8C" stroke-width="1" fill="none" />
+                    <path d="M800,1000 L800,850 L750,800 L200,800" stroke="#1B8C8C" stroke-width="1" fill="none" />
+                    <circle cx="250" cy="250" r="3" fill="#F27830" />
+                    <circle cx="750" cy="800" r="3" fill="#F27830" />
+                </svg>
+
+                <div class="scan-line"></div>
+                <div class="connection-line"></div>
+
+                <div class="corner-data top-right">
+                    Status: Reconstructing...<br>
+                    Buffer: 0x8F22A<br>
+                    Core: Active
+                </div>
+                <div class="corner-data bottom-left">
+                    // Input: Raw_Data<br>
+                    // Output: Structured_Logic
+                </div>
+
+                <div class="label" style="text-align: center; margin-bottom: 60px; width: 100%; z-index: 2;">
+                    Алгоритм восстановления
+                </div>
+
+                <div style="position: relative; width: 100%; z-index: 2;">
+                    <div class="benefits-grid">
+                        <div class="benefit-card" data-step="01">
+                            <span class="benefit-icon">{&nbsp;}</span>
+                            <h3>Деконструкция</h3>
+                            <p>Разбираем ваши текущие знания на атомы. Находим места, где слепое копирование заменило
+                                реальное понимание базы.</p>
+                        </div>
+                        <div class="benefit-card" data-step="02">
+                            <span class="benefit-icon">[&nbsp;]</span>
+                            <h3>Сшивка смыслов</h3>
+                            <p>Заполняем логические пустоты. Соединяем разрозненные технологии в единую инженерную
+                                картину мира.</p>
+                        </div>
+                        <div class="benefit-card" data-step="03">
+                            <span class="benefit-icon">>&nbsp;_</span>
+                            <h3>Автономность</h3>
+                            <p>Вы перестаете зависеть от туториалов. Результат — способность проектировать решения с
+                                чистого листа.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="scroll-indicator">Scroll to execute</div>
-        </section>
+            </section>
 
-        <!-- SECOND SLIDE -->
-        <section class="section" style="background-color: #0c3338;"> <svg class="bg-schematic" viewBox="0 0 1000 1000">
-                <path d="M0,200 L200,200 L250,250 L500,250 L550,200 L1000,200" stroke="#1B8C8C" stroke-width="1" fill="none" />
-                <path d="M100,0 L100,150 L150,200" stroke="#1B8C8C" stroke-width="1" fill="none" />
-                <path d="M800,1000 L800,850 L750,800 L200,800" stroke="#1B8C8C" stroke-width="1" fill="none" />
-                <circle cx="250" cy="250" r="3" fill="#F27830" />
-                <circle cx="750" cy="800" r="3" fill="#F27830" />
-            </svg>
+            <section class="section final-section">
 
-            <div class="scan-line"></div>
-            <div class="connection-line"></div>
+                <div class="corner-data top-right">
+                    Status: Awaiting input...<br>
+                    Mode: Direct_Intervention<br>
+                    Slot: Open
+                </div>
 
-            <div class="corner-data top-right">
-                Status: Reconstructing...<br>
-                Buffer: 0x8F22A<br>
-                Core: Active
-            </div>
-            <div class="corner-data bottom-left">
-                // Input: Raw_Data<br>
-                // Output: Structured_Logic
-            </div>
-
-            <div class="label" style="text-align: center; margin-bottom: 60px; width: 100%; z-index: 2;">
-                Алгоритм восстановления
-            </div>
-
-            <div style="position: relative; width: 100%; z-index: 2;">
-                <div class="benefits-grid">
-                    <div class="benefit-card" data-step="01">
-                        <span class="benefit-icon">{&nbsp;}</span>
-                        <h3>Деконструкция</h3>
-                        <p>Разбираем ваши текущие знания на атомы. Находим места, где слепое копирование заменило реальное понимание базы.</p>
+                <div class="final-content">
+                    <div class="final-left">
+                        <div class="label">// Финальный шаг</div>
+                        <h2 class="final-headline">
+                            Ты умеешь<br>
+                            <strong>копировать.</strong><br>
+                            Я научу тебя<br>
+                            <strong>думать.</strong>
+                        </h2>
                     </div>
-                    <div class="benefit-card" data-step="02">
-                        <span class="benefit-icon">[&nbsp;]</span>
-                        <h3>Сшивка смыслов</h3>
-                        <p>Заполняем логические пустоты. Соединяем разрозненные технологии в единую инженерную картину мира.</p>
-                    </div>
-                    <div class="benefit-card" data-step="03">
-                        <span class="benefit-icon">>&nbsp;_</span>
-                        <h3>Автономность</h3>
-                        <p>Вы перестаете зависеть от туториалов. Результат — способность проектировать решения с чистого листа.</p>
+
+                    <div class="final-right">
+                        <div class="final-divider"></div>
+
+                        <ul class="final-list">
+                            <li><span class="final-arrow">→</span>Проектируй архитектуру с чистого листа</li>
+                            <li><span class="final-arrow">→</span>Пиши код без туториалов и подсказок AI</li>
+                            <li><span class="final-arrow">→</span>Думай как инженер, а не как ученик</li>
+                        </ul>
+
+                        <div class="final-cta">
+                            <span class="final-prompt"><span class="log-time">[System]</span> Awaiting command...<span
+                                    class="log-cursor"></span></span>
+                            <button class="enroll-btn" id="open-links">init_audit()</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- THIRD SLIDE -->
-        <section class="section"></section>
-    </main>
-    <footer></footer>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p class="copyright">© 2026 :AC: Anti-Course</p>
+            <div class="footer-legal">
+                <p>Назаренко И. Т.</p>
+                <p>ИНН: 550618263569</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#" id="open-policy">ПОЛИТИКА</a>
+                <a href="#" id="open-about">ОБО МНЕ</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="modal-overlay">
+
+        <div class="modal-window terminal-style" id="modal-about">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="terminal-dot red"></div>
+                    <div class="terminal-dot orange"></div>
+                    <div class="terminal-dot dark-red"></div>
+                </div>
+                <span class="terminal-title">about_instructor.sh</span>
+                <button class="close-modal-btn" aria-label="Закрыть">&times;</button>
+            </div>
+<div class="terminal-body">
+    <p class="log-line success">> Loading profile...</p>
+    <p class="log-line"><span class="log-time">[NAME]</span> <strong>Назаренко Илья </strong> — инженер-преподаватель. ИТ-реабилитолог</p>
+    <p class="log-line"><span class="log-time">[EXP] </span> 2+ года в классах и 1:1. Академия Топ → авторская методика</p>
+    <p class="log-line"><span class="log-time">[STACK]</span> Python · Java · Web</p>
+    <p class="log-line"><span class="log-time">[EDGE]</span> Изучая гештальт и психоанализ - понимаю, почему вы застряли</p>
+    <p class="log-line"><span class="log-time">[MODE]</span> Работаю с теми, кто даёт себе отчёт в происходящем</p>
+    <p class="log-line"><span class="log-time">[OUT] </span> Месяц упорной работы → pet-project без GPT и чужой головы</p>
+    <p class="log-line log-error"><span class="log-time">[WARN]</span> Если дыры в базе — скажу прямо. Это тоже часть работы</p>
+    <p class="log-line success">> Anti-Course манифест загружен.</p>
+</div>
+        </div>
+
+        <div class="modal-window terminal-style" id="modal-policy">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="terminal-dot red"></div>
+                    <div class="terminal-dot orange"></div>
+                    <div class="terminal-dot dark-red"></div>
+                </div>
+                <span class="terminal-title">privacy_policy.txt</span>
+                <button class="close-modal-btn" aria-label="Закрыть">&times;</button>
+            </div>
+            <div class="terminal-body legal-text">
+                <p class="log-line"><span class="log-time">[01]</span> Сайт не собирает, не хранит и не передаёт персональные данные.</p>
+<p class="log-line"><span class="log-time">[02]</span> Файлы cookie не используются. Аналитика не подключена.</p>
+<p class="log-line"><span class="log-time">[03]</span> Ссылки ведут на Instagram и Telegram — их политики конфиденциальности регулируются этими платформами самостоятельно.</p>
+<p class="log-line"><span class="log-time">[04]</span> Вопросы по данным: написать лично → t.me/belkius</p>
+                <p class="log-line success">> Все права защищены :AC: Anti-Course.</p>
+            </div>
+        </div>
+        <div class="modal-window terminal-style" id="modal-links">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="terminal-dot red"></div>
+                    <div class="terminal-dot orange"></div>
+                    <div class="terminal-dot dark-red"></div>
+                </div>
+                <span class="terminal-title">contact.sh</span>
+                <button class="close-modal-btn" aria-label="Закрыть">&times;</button>
+            </div>
+            <div class="terminal-body">
+                <p class="log-line success">> Выбери канал связи...</p>
+                <a href="https://instagram.com/beyondyourhonesty" class="link-line" target="_blank">
+                    <span class="log-time">[IG]</span><span class="link-label">Instagram</span><span class="link-url">@beyondyourhonesty</span>
+                </a>
+                <a href="https://t.me/" class="link-line" target="_blank">
+                    <span class="log-time">[TG]</span><span class="link-label">Канал</span><span class="link-url">t.me/</span>
+                </a>
+                <a href="https://t.me/belkius" class="link-line" target="_blank">
+                    <span class="log-time">[DM]</span><span class="link-label">Написать лично</span><span class="link-url">t.me/belkius</span>
+                </a>
+                <p class="log-line success">> Отвечу на все вопросы</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="modals.js"></script>
 </body>
+
 </html>
