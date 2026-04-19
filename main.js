@@ -9,7 +9,6 @@ const observerOptions = {
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            // Находим индекс текущей секции
             const index = Array.from(sections).indexOf(entry.target);
 
             dots.forEach(dot => dot.classList.remove('active'));
