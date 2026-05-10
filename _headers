@@ -1,0 +1,66 @@
+# ==============================
+# ГЛОБАЛЬНЫЕ ПРАВИЛА
+# ==============================
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# ==============================
+# КЭШИРОВАНИЕ СТАТИКИ
+# ==============================
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+# ==============================
+# ШРИФТЫ (CORS + кэш)
+# ==============================
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# ==============================
+# HTML-СТРАНИЦЫ (не кэшировать агрессивно)
+# ==============================
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# ==============================
+# FAVICON & MANIFEST
+# ==============================
+/favicon.svg
+  Content-Type: image/svg+xml
+  Cache-Control: public, max-age=31536000, immutable
+/favicon.ico
+  Content-Type: image/x-icon
+  Cache-Control: public, max-age=31536000, immutable
+/site.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: public, max-age=86400
+
+# ==============================
+# ТЕХНИЧЕСКИЕ ФАЙЛЫ
+# ==============================
+/robots.txt
+  Content-Type: text/plain
+  Cache-Control: public, max-age=3600
+/sitemap.xml
+  Content-Type: application/xml
+  Cache-Control: public, max-age=3600
+
+# ==============================
+# HSTS (HTTPS принудительно)
+# ==============================
+/*
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
