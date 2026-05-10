@@ -35,6 +35,14 @@ if (btnPolicy) {
     });
 }
 
+const btnLinksPricing = document.getElementById('open-links-pricing');
+if (btnLinksPricing) {
+    btnLinksPricing.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModal(modalLinks);
+    });
+}
+
 if (btnLinks) {
     btnLinks.addEventListener('click', (e) => {
         e.preventDefault();
