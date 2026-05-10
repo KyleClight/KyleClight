@@ -944,7 +944,7 @@ body {
 /* Фиксированная ширина меток в модалке "Обо мне" — выравнивание как в терминале слайда 1 */
 .modal-window .log-time {
     display: inline-block;
-    min-width: 80px;
+    min-width: 72px;
     color: var(--text-muted);
     margin-right: 12px;
     flex-shrink: 0;
